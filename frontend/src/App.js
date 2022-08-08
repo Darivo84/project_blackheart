@@ -2,6 +2,8 @@ import { Routes, Route} from 'react-router-dom'
 import { SignUp, Login } from './pages'
 import './App.css'
 
+// TODO: Remove this todo :)
+
 function App() {
   return (
     <div className="App">

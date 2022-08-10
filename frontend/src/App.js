@@ -1,13 +1,13 @@
 import { Routes, Route} from 'react-router-dom'
-import { SignUp, Login } from './pages'
-import './App.css'
-
-// TODO: Remove this todo :)
+import { Home ,SignUp, Login } from './pages'
+// import PersonIcon from '@mui/icons-material/Person';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      {/* <PersonIcon /> */}
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>
